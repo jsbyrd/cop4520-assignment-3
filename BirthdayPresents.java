@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class BirthdayPresents {
   public static final int NUM_SERVANTS = 4;
-  public static final int NUM_PRESENTS = 10000;
+  public static final int NUM_PRESENTS = 100000;
   public static void main(String[] args) throws InterruptedException {
     Integer[] unorderedPresents = new Integer[NUM_PRESENTS];
     for (int i = 0; i < NUM_PRESENTS; i++) {
@@ -85,6 +85,17 @@ class ServantThread extends Thread {
           addPresentMode = false;
         }
       }
+      // Very small chance to check for contain
+      if (Math.random() > 0.9998) {
+        int toBeChecked = rand.nextInt(numPresents) + 1;
+        if (list.contains(toBeChecked)) {
+          System.out.println("List contains " + toBeChecked);
+        }
+        else {
+          System.out.println("List does not contain " + toBeChecked);
+        }
+      }
+
     }
   }
 }
