@@ -1,3 +1,6 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -5,12 +8,12 @@ import java.util.Random;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-
-
 public class BirthdayPresents {
   public static final int NUM_SERVANTS = 4;
-  public static final int NUM_PRESENTS = 100000;
-  public static void main(String[] args) throws InterruptedException {
+  public static final int NUM_PRESENTS = 500000;
+  public static final String FILENAME = "presents.txt";
+
+  public static void main(String[] args) throws InterruptedException, IOException {
     Integer[] unorderedPresents = new Integer[NUM_PRESENTS];
     for (int i = 0; i < NUM_PRESENTS; i++) {
       unorderedPresents[i] = i + 1;
@@ -22,19 +25,23 @@ public class BirthdayPresents {
     // Shared resources
     ThreadSafeLinkedList list = new ThreadSafeLinkedList();
     Counter counter = new Counter();
+
+    // Write to temperature.txt
+    File summary = new File(FILENAME);
+    summary.createNewFile();
+    FileWriter writer = new FileWriter(FILENAME);
     // Create and start threads
     Thread[] threads = new ServantThread[NUM_SERVANTS];
     final long executionStartTime = System.currentTimeMillis();
     for (int i = 0; i < NUM_SERVANTS; i++) {
-      threads[i] = new ServantThread(presentsList, list, counter, NUM_PRESENTS);
+      threads[i] = new ServantThread(presentsList, list, counter, NUM_PRESENTS, writer);
       threads[i].start();
     }
     // Wait for threads to die
     for (int i = 0; i < NUM_SERVANTS; i++) {
       threads[i].join();
     }
-    final long executionEndTime = System.currentTimeMillis();
-    System.out.println("Total execution time: " + (executionEndTime - executionStartTime) + "ms");
+    writer.close();
 
     // Should be 500,000
     System.out.println("Total presents added: " + counter.getFinished());
@@ -46,6 +53,10 @@ public class BirthdayPresents {
       System.out.println(curr.present);
       curr = curr.nextNode;
     }
+
+    // Print execution time
+    final long executionEndTime = System.currentTimeMillis();
+    System.out.println("Total execution time: " + (executionEndTime - executionStartTime) + "ms");
   }
 }
 
@@ -55,13 +66,15 @@ class ServantThread extends Thread {
   private Counter counter;
   private int numPresents;
   private boolean addPresentMode;
+  private FileWriter writer;
 
-  public ServantThread(List<Integer> presentsList, ThreadSafeLinkedList list, Counter counter, int numPresents) {
+  public ServantThread(List<Integer> presentsList, ThreadSafeLinkedList list, Counter counter, int numPresents, FileWriter writer) {
     this.presentsList = presentsList;
     this.list = list;
     this.counter = counter;
     this.numPresents = numPresents;
     this.addPresentMode = true;
+    this.writer = writer;
   }
 
   @Override
@@ -71,9 +84,15 @@ class ServantThread extends Thread {
     while (currIndex < numPresents || counter.getRemoved() < numPresents) {
       // Remove a present if either it's time to do so or if there are no more presents to add
       if (!addPresentMode || currIndex >= numPresents) {
-        int toBeRemoved = rand.nextInt(numPresents) + 1;
-        boolean isRemoved = list.remove(toBeRemoved);
-        if (isRemoved) counter.incrementRemoved();
+        int isRemoved = list.remove();
+        if (isRemoved > -1) {
+          counter.incrementRemoved();
+          try {
+            writer.write("Thank you " + isRemoved + "!\n");
+          } catch (IOException e) {
+            throw new RuntimeException(e);
+          }
+        }
         addPresentMode = true;
       }
       // Otherwise add present
@@ -142,6 +161,7 @@ class ThreadSafeLinkedList {
     return !pred.isMarked() && !curr.isMarked() && pred.nextNode == curr;
   }
 
+  // Add using fine-grained locking mechanism
   public boolean add(int present) {
     while (true) {
       Node pred = this.head;
@@ -177,28 +197,22 @@ class ThreadSafeLinkedList {
     }
   }
 
-  public boolean remove(int present) {
+  // Remove head
+  public int remove() {
     while (true) {
       Node pred = head;
       Node curr = head.nextNode;
-      while (curr.present < present) {
-        pred = curr;
-        curr = curr.nextNode;
-      }
+      if (curr.present == Integer.MAX_VALUE) return -1; // Empty list
       pred.lock();
       try {
         curr.lock();
         try {
           if (validate(pred, curr)) {
-            if (curr.present != present) {
-              return false;
-            }
-            else {
-              curr.setMarked(true);
-              pred.nextNode = curr.nextNode;
-              this.numPresents--;
-              return true;
-            }
+            curr.setMarked(true);
+            int returnVal = curr.present;
+            pred.nextNode = curr.nextNode;
+            this.numPresents--;
+            return returnVal;
           }
         }
         finally {
@@ -211,16 +225,13 @@ class ThreadSafeLinkedList {
     }
   }
 
+  // Check to see if a given present is in linked list
   public boolean contains(int present) {
     Node curr = head;
     while (curr.present < present) {
       curr = curr.nextNode;
     }
     return curr.present == present && !curr.isMarked();
-  }
-
-  public int getNumPresents() {
-    return this.numPresents;
   }
 }
 
@@ -245,26 +256,6 @@ class Node {
 
   public void unlock() {
     lock.unlock();
-  }
-
-//  public int getPresent() {
-//    return this.present;
-//  }
-//
-//  public Node getNextNode() {
-//    return this.nextNode;
-//  }
-//
-//  public void setNextNode(Node nextNode) {
-//    this.nextNode = nextNode;
-//  }
-
-  public void setTagged(boolean bool) {
-    this.tagged = bool;
-  }
-
-  public boolean isTagged() {
-    return this.tagged;
   }
 
   public void setMarked(boolean bool) {
