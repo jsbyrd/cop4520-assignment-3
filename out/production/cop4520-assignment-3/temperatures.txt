@@ -1,0 +1,500 @@
+Hour 1:
+5 highest temperatures: 169F 162F 162F 160F 143F
+5 lowest temperatures: -91F -74F -72F -67F -67F
+Biggest temperature difference between 10 minutes was 213F from minute 25 (-91F) to minute 35 (122)
+
+Hour 2:
+5 highest temperatures: 168F 165F 162F 158F 152F
+5 lowest temperatures: -93F -90F -89F -88F -76F
+Biggest temperature difference between 10 minutes was 252F from minute 99 (-90F) to minute 109 (162)
+
+Hour 3:
+5 highest temperatures: 162F 160F 159F 155F 143F
+5 lowest temperatures: -98F -94F -87F -86F -86F
+Biggest temperature difference between 10 minutes was 236F from minute 159 (138F) to minute 169 (-98)
+
+Hour 4:
+5 highest temperatures: 163F 162F 140F 105F 102F
+5 lowest temperatures: -97F -95F -82F -77F -73F
+Biggest temperature difference between 10 minutes was 220F from minute 215 (-58F) to minute 225 (162)
+
+Hour 5:
+5 highest temperatures: 165F 162F 159F 157F 153F
+5 lowest temperatures: -98F -92F -75F -74F -71F
+Biggest temperature difference between 10 minutes was 244F from minute 278 (152F) to minute 288 (-92)
+
+Hour 6:
+5 highest temperatures: 163F 157F 157F 149F 141F
+5 lowest temperatures: -94F -92F -78F -76F -73F
+Biggest temperature difference between 10 minutes was 236F from minute 349 (-73F) to minute 359 (163)
+
+Hour 7:
+5 highest temperatures: 163F 159F 158F 157F 157F
+5 lowest temperatures: -100F -94F -90F -86F -85F
+Biggest temperature difference between 10 minutes was 257F from minute 385 (157F) to minute 395 (-100)
+
+Hour 8:
+5 highest temperatures: 168F 166F 165F 158F 154F
+5 lowest temperatures: -98F -98F -97F -96F -84F
+Biggest temperature difference between 10 minutes was 236F from minute 460 (-98F) to minute 470 (138)
+
+Hour 9:
+5 highest temperatures: 168F 165F 163F 160F 157F
+5 lowest temperatures: -96F -95F -82F -78F -64F
+Biggest temperature difference between 10 minutes was 252F from minute 521 (-95F) to minute 531 (157)
+
+Hour 10:
+5 highest temperatures: 167F 156F 155F 152F 148F
+5 lowest temperatures: -98F -95F -84F -84F -83F
+Biggest temperature difference between 10 minutes was 238F from minute 557 (140F) to minute 567 (-98)
+
+Hour 11:
+5 highest temperatures: 169F 166F 166F 165F 162F
+5 lowest temperatures: -98F -92F -90F -78F -63F
+Biggest temperature difference between 10 minutes was 257F from minute 623 (165F) to minute 633 (-92)
+
+Hour 12:
+5 highest temperatures: 157F 153F 150F 150F 149F
+5 lowest temperatures: -100F -89F -81F -79F -75F
+Biggest temperature difference between 10 minutes was 236F from minute 687 (-89F) to minute 697 (147)
+
+Hour 13:
+5 highest temperatures: 162F 159F 158F 156F 154F
+5 lowest temperatures: -93F -86F -83F -78F -75F
+Biggest temperature difference between 10 minutes was 216F from minute 730 (-62F) to minute 740 (154)
+
+Hour 14:
+5 highest temperatures: 166F 166F 152F 151F 148F
+5 lowest temperatures: -98F -95F -90F -89F -89F
+Biggest temperature difference between 10 minutes was 242F from minute 815 (-90F) to minute 825 (152)
+
+Hour 15:
+5 highest temperatures: 168F 167F 158F 152F 146F
+5 lowest temperatures: -92F -90F -86F -85F -76F
+Biggest temperature difference between 10 minutes was 208F from minute 841 (167F) to minute 851 (-41)
+
+Hour 16:
+5 highest temperatures: 166F 158F 155F 153F 141F
+5 lowest temperatures: -96F -84F -78F -77F -65F
+Biggest temperature difference between 10 minutes was 219F from minute 931 (135F) to minute 941 (-84)
+
+Hour 17:
+5 highest temperatures: 165F 163F 162F 161F 154F
+5 lowest temperatures: -99F -94F -88F -80F -76F
+Biggest temperature difference between 10 minutes was 215F from minute 979 (163F) to minute 989 (-52)
+
+Hour 18:
+5 highest temperatures: 163F 160F 158F 157F 149F
+5 lowest temperatures: -100F -99F -98F -97F -95F
+Biggest temperature difference between 10 minutes was 250F from minute 1030 (158F) to minute 1040 (-92)
+
+Hour 19:
+5 highest temperatures: 168F 163F 161F 156F 151F
+5 lowest temperatures: -96F -89F -88F -84F -83F
+Biggest temperature difference between 10 minutes was 251F from minute 1094 (-88F) to minute 1104 (163)
+
+Hour 20:
+5 highest temperatures: 149F 143F 142F 139F 137F
+5 lowest temperatures: -100F -99F -97F -96F -95F
+Biggest temperature difference between 10 minutes was 232F from minute 1144 (137F) to minute 1154 (-95)
+
+Hour 21:
+5 highest temperatures: 168F 163F 157F 153F 131F
+5 lowest temperatures: -97F -89F -85F -79F -64F
+Biggest temperature difference between 10 minutes was 222F from minute 1221 (-59F) to minute 1231 (163)
+
+Hour 22:
+5 highest temperatures: 168F 164F 163F 162F 151F
+5 lowest temperatures: -86F -84F -79F -77F -74F
+Biggest temperature difference between 10 minutes was 228F from minute 1308 (151F) to minute 1318 (-77)
+
+Hour 23:
+5 highest temperatures: 165F 164F 155F 151F 148F
+5 lowest temperatures: -98F -89F -88F -85F -85F
+Biggest temperature difference between 10 minutes was 249F from minute 1355 (-85F) to minute 1365 (164)
+
+Hour 24:
+5 highest temperatures: 167F 160F 152F 152F 143F
+5 lowest temperatures: -95F -92F -91F -87F -85F
+Biggest temperature difference between 10 minutes was 228F from minute 1396 (143F) to minute 1406 (-85)
+
+Hour 25:
+5 highest temperatures: 164F 163F 163F 158F 154F
+5 lowest temperatures: -96F -94F -89F -87F -84F
+Biggest temperature difference between 10 minutes was 243F from minute 1462 (154F) to minute 1472 (-89)
+
+Hour 26:
+5 highest temperatures: 168F 162F 154F 151F 148F
+5 lowest temperatures: -96F -93F -88F -86F -80F
+Biggest temperature difference between 10 minutes was 239F from minute 1519 (146F) to minute 1529 (-93)
+
+Hour 27:
+5 highest temperatures: 169F 166F 164F 164F 162F
+5 lowest temperatures: -97F -96F -94F -90F -83F
+Biggest temperature difference between 10 minutes was 261F from minute 1607 (164F) to minute 1617 (-97)
+
+Hour 28:
+5 highest temperatures: 158F 156F 150F 134F 128F
+5 lowest temperatures: -92F -92F -89F -89F -87F
+Biggest temperature difference between 10 minutes was 215F from minute 1622 (128F) to minute 1632 (-87)
+
+Hour 29:
+5 highest temperatures: 164F 154F 151F 146F 137F
+5 lowest temperatures: -90F -89F -88F -83F -80F
+Biggest temperature difference between 10 minutes was 247F from minute 1693 (164F) to minute 1703 (-83)
+
+Hour 30:
+5 highest temperatures: 164F 164F 162F 151F 148F
+5 lowest temperatures: -100F -99F -92F -90F -85F
+Biggest temperature difference between 10 minutes was 250F from minute 1750 (-99F) to minute 1760 (151)
+
+Hour 31:
+5 highest temperatures: 167F 165F 148F 146F 141F
+5 lowest temperatures: -100F -100F -99F -99F -97F
+Biggest temperature difference between 10 minutes was 249F from minute 1801 (-82F) to minute 1811 (167)
+
+Hour 32:
+5 highest temperatures: 162F 162F 160F 155F 152F
+5 lowest temperatures: -100F -99F -99F -91F -85F
+Biggest temperature difference between 10 minutes was 232F from minute 1890 (132F) to minute 1900 (-100)
+
+Hour 33:
+5 highest temperatures: 156F 155F 155F 153F 143F
+5 lowest temperatures: -98F -88F -85F -76F -69F
+Biggest temperature difference between 10 minutes was 238F from minute 1961 (-85F) to minute 1971 (153)
+
+Hour 34:
+5 highest temperatures: 168F 164F 163F 163F 157F
+5 lowest temperatures: -99F -96F -94F -91F -87F
+Biggest temperature difference between 10 minutes was 250F from minute 2027 (-87F) to minute 2037 (163)
+
+Hour 35:
+5 highest temperatures: 166F 165F 154F 153F 152F
+5 lowest temperatures: -96F -92F -88F -82F -79F
+Biggest temperature difference between 10 minutes was 258F from minute 2080 (-92F) to minute 2090 (166)
+
+Hour 36:
+5 highest temperatures: 168F 167F 166F 162F 156F
+5 lowest temperatures: -97F -96F -95F -94F -75F
+Biggest temperature difference between 10 minutes was 252F from minute 2123 (-96F) to minute 2133 (156)
+
+Hour 37:
+5 highest temperatures: 169F 165F 164F 162F 161F
+5 lowest temperatures: -99F -98F -96F -91F -84F
+Biggest temperature difference between 10 minutes was 222F from minute 2202 (138F) to minute 2212 (-84)
+
+Hour 38:
+5 highest temperatures: 158F 156F 156F 137F 136F
+5 lowest temperatures: -91F -89F -78F -77F -72F
+Biggest temperature difference between 10 minutes was 210F from minute 2264 (132F) to minute 2274 (-78)
+
+Hour 39:
+5 highest temperatures: 162F 161F 151F 150F 148F
+5 lowest temperatures: -97F -94F -92F -81F -74F
+Biggest temperature difference between 10 minutes was 206F from minute 2294 (-63F) to minute 2304 (143)
+
+Hour 40:
+5 highest temperatures: 168F 159F 141F 134F 128F
+5 lowest temperatures: -91F -91F -89F -88F -87F
+Biggest temperature difference between 10 minutes was 225F from minute 2355 (134F) to minute 2365 (-91)
+
+Hour 41:
+5 highest temperatures: 167F 166F 163F 157F 156F
+5 lowest temperatures: -99F -97F -92F -86F -79F
+Biggest temperature difference between 10 minutes was 233F from minute 2417 (147F) to minute 2427 (-86)
+
+Hour 42:
+5 highest temperatures: 169F 162F 161F 160F 151F
+5 lowest temperatures: -89F -86F -82F -81F -79F
+Biggest temperature difference between 10 minutes was 224F from minute 2502 (160F) to minute 2512 (-64)
+
+Hour 43:
+5 highest temperatures: 166F 162F 161F 157F 155F
+5 lowest temperatures: -100F -87F -84F -75F -74F
+Biggest temperature difference between 10 minutes was 222F from minute 2559 (122F) to minute 2569 (-100)
+
+Hour 44:
+5 highest temperatures: 169F 169F 168F 162F 159F
+5 lowest temperatures: -96F -92F -88F -84F -82F
+Biggest temperature difference between 10 minutes was 250F from minute 2624 (-92F) to minute 2634 (158)
+
+Hour 45:
+5 highest temperatures: 164F 153F 148F 145F 140F
+5 lowest temperatures: -100F -89F -80F -80F -73F
+Biggest temperature difference between 10 minutes was 225F from minute 2678 (145F) to minute 2688 (-80)
+
+Hour 46:
+5 highest temperatures: 165F 156F 154F 152F 139F
+5 lowest temperatures: -96F -95F -82F -74F -73F
+Biggest temperature difference between 10 minutes was 250F from minute 2740 (-96F) to minute 2750 (154)
+
+Hour 47:
+5 highest temperatures: 168F 166F 165F 165F 157F
+5 lowest temperatures: -96F -86F -86F -86F -77F
+Biggest temperature difference between 10 minutes was 194F from minute 2807 (-37F) to minute 2817 (157)
+
+Hour 48:
+5 highest temperatures: 169F 168F 167F 161F 161F
+5 lowest temperatures: -95F -91F -91F -87F -66F
+Biggest temperature difference between 10 minutes was 243F from minute 2863 (-91F) to minute 2873 (152)
+
+Hour 49:
+5 highest temperatures: 165F 154F 147F 146F 143F
+5 lowest temperatures: -94F -92F -87F -78F -74F
+Biggest temperature difference between 10 minutes was 246F from minute 2928 (154F) to minute 2938 (-92)
+
+Hour 50:
+5 highest temperatures: 165F 163F 156F 145F 128F
+5 lowest temperatures: -92F -86F -83F -82F -77F
+Biggest temperature difference between 10 minutes was 248F from minute 2962 (165F) to minute 2972 (-83)
+
+Hour 51:
+5 highest temperatures: 169F 168F 167F 164F 162F
+5 lowest temperatures: -100F -99F -99F -90F -84F
+Biggest temperature difference between 10 minutes was 259F from minute 3045 (-99F) to minute 3055 (160)
+
+Hour 52:
+5 highest temperatures: 158F 157F 149F 146F 142F
+5 lowest temperatures: -99F -99F -92F -77F -72F
+Biggest temperature difference between 10 minutes was 232F from minute 3089 (-92F) to minute 3099 (140)
+
+Hour 53:
+5 highest temperatures: 169F 166F 165F 163F 159F
+5 lowest temperatures: -96F -95F -94F -90F -84F
+Biggest temperature difference between 10 minutes was 254F from minute 3128 (159F) to minute 3138 (-95)
+
+Hour 54:
+5 highest temperatures: 168F 168F 164F 155F 153F
+5 lowest temperatures: -98F -92F -91F -84F -79F
+Biggest temperature difference between 10 minutes was 210F from minute 3186 (-61F) to minute 3196 (149)
+
+Hour 55:
+5 highest temperatures: 169F 155F 155F 154F 144F
+5 lowest temperatures: -100F -99F -91F -88F -81F
+Biggest temperature difference between 10 minutes was 221F from minute 3265 (155F) to minute 3275 (-66)
+
+Hour 56:
+5 highest temperatures: 166F 165F 164F 161F 154F
+5 lowest temperatures: -97F -93F -93F -90F -87F
+Biggest temperature difference between 10 minutes was 247F from minute 3332 (-93F) to minute 3342 (154)
+
+Hour 57:
+5 highest temperatures: 168F 167F 160F 150F 139F
+5 lowest temperatures: -100F -99F -94F -84F -77F
+Biggest temperature difference between 10 minutes was 223F from minute 3385 (167F) to minute 3395 (-56)
+
+Hour 58:
+5 highest temperatures: 155F 152F 150F 146F 146F
+5 lowest temperatures: -100F -95F -95F -92F -90F
+Biggest temperature difference between 10 minutes was 238F from minute 3445 (-92F) to minute 3455 (146)
+
+Hour 59:
+5 highest temperatures: 164F 160F 158F 154F 152F
+5 lowest temperatures: -95F -92F -87F -76F -67F
+Biggest temperature difference between 10 minutes was 207F from minute 3483 (-92F) to minute 3493 (115)
+
+Hour 60:
+5 highest temperatures: 162F 160F 156F 150F 144F
+5 lowest temperatures: -94F -93F -90F -89F -88F
+Biggest temperature difference between 10 minutes was 243F from minute 3550 (-83F) to minute 3560 (160)
+
+Hour 61:
+5 highest temperatures: 168F 154F 153F 151F 132F
+5 lowest temperatures: -80F -76F -76F -76F -75F
+Biggest temperature difference between 10 minutes was 225F from minute 3611 (-57F) to minute 3621 (168)
+
+Hour 62:
+5 highest temperatures: 168F 160F 159F 150F 149F
+5 lowest temperatures: -90F -87F -84F -83F -81F
+Biggest temperature difference between 10 minutes was 234F from minute 3667 (-66F) to minute 3677 (168)
+
+Hour 63:
+5 highest temperatures: 169F 155F 151F 145F 145F
+5 lowest temperatures: -93F -90F -85F -84F -77F
+Biggest temperature difference between 10 minutes was 232F from minute 3760 (155F) to minute 3770 (-77)
+
+Hour 64:
+5 highest temperatures: 159F 154F 147F 145F 143F
+5 lowest temperatures: -99F -84F -81F -63F -58F
+Biggest temperature difference between 10 minutes was 224F from minute 3803 (-81F) to minute 3813 (143)
+
+Hour 65:
+5 highest temperatures: 162F 161F 160F 159F 152F
+5 lowest temperatures: -94F -91F -89F -86F -86F
+Biggest temperature difference between 10 minutes was 234F from minute 3889 (-86F) to minute 3899 (148)
+
+Hour 66:
+5 highest temperatures: 167F 156F 151F 148F 147F
+5 lowest temperatures: -100F -97F -97F -94F -92F
+Biggest temperature difference between 10 minutes was 236F from minute 3903 (-89F) to minute 3913 (147)
+
+Hour 67:
+5 highest temperatures: 169F 168F 164F 164F 163F
+5 lowest temperatures: -99F -90F -86F -85F -84F
+Biggest temperature difference between 10 minutes was 247F from minute 3993 (-84F) to minute 4003 (163)
+
+Hour 68:
+5 highest temperatures: 167F 167F 165F 161F 158F
+5 lowest temperatures: -80F -74F -73F -71F -64F
+Biggest temperature difference between 10 minutes was 215F from minute 4043 (-64F) to minute 4053 (151)
+
+Hour 69:
+5 highest temperatures: 168F 165F 164F 163F 156F
+5 lowest temperatures: -98F -97F -94F -91F -87F
+Biggest temperature difference between 10 minutes was 249F from minute 4083 (-85F) to minute 4093 (164)
+
+Hour 70:
+5 highest temperatures: 165F 162F 160F 158F 146F
+5 lowest temperatures: -95F -77F -73F -69F -68F
+Biggest temperature difference between 10 minutes was 241F from minute 4161 (-95F) to minute 4171 (146)
+
+Hour 71:
+5 highest temperatures: 158F 144F 140F 137F 126F
+5 lowest temperatures: -90F -88F -87F -84F -77F
+Biggest temperature difference between 10 minutes was 212F from minute 4220 (-54F) to minute 4230 (158)
+
+Hour 72:
+5 highest temperatures: 161F 158F 156F 153F 152F
+5 lowest temperatures: -97F -92F -92F -73F -73F
+Biggest temperature difference between 10 minutes was 208F from minute 4262 (161F) to minute 4272 (-47)
+
+Hour 73:
+5 highest temperatures: 166F 160F 156F 154F 153F
+5 lowest temperatures: -89F -87F -87F -83F -82F
+Biggest temperature difference between 10 minutes was 224F from minute 4341 (166F) to minute 4351 (-58)
+
+Hour 74:
+5 highest temperatures: 161F 158F 154F 150F 140F
+5 lowest temperatures: -100F -99F -91F -90F -85F
+Biggest temperature difference between 10 minutes was 250F from minute 4406 (-100F) to minute 4416 (150)
+
+Hour 75:
+5 highest temperatures: 169F 164F 160F 157F 152F
+5 lowest temperatures: -95F -82F -80F -77F -69F
+Biggest temperature difference between 10 minutes was 255F from minute 4462 (-95F) to minute 4472 (160)
+
+Hour 76:
+5 highest temperatures: 164F 158F 158F 152F 146F
+5 lowest temperatures: -99F -98F -95F -93F -89F
+Biggest temperature difference between 10 minutes was 226F from minute 4514 (127F) to minute 4524 (-99)
+
+Hour 77:
+5 highest temperatures: 167F 159F 156F 155F 148F
+5 lowest temperatures: -100F -100F -90F -87F -82F
+Biggest temperature difference between 10 minutes was 230F from minute 4584 (-82F) to minute 4594 (148)
+
+Hour 78:
+5 highest temperatures: 168F 168F 162F 157F 153F
+5 lowest temperatures: -100F -97F -97F -93F -74F
+Biggest temperature difference between 10 minutes was 236F from minute 4659 (143F) to minute 4669 (-93)
+
+Hour 79:
+5 highest temperatures: 168F 167F 166F 159F 156F
+5 lowest temperatures: -89F -87F -79F -76F -76F
+Biggest temperature difference between 10 minutes was 225F from minute 4694 (-73F) to minute 4704 (152)
+
+Hour 80:
+5 highest temperatures: 169F 169F 165F 160F 158F
+5 lowest temperatures: -94F -87F -85F -77F -70F
+Biggest temperature difference between 10 minutes was 240F from minute 4787 (153F) to minute 4797 (-87)
+
+Hour 81:
+5 highest temperatures: 166F 162F 161F 146F 144F
+5 lowest temperatures: -93F -78F -77F -73F -71F
+Biggest temperature difference between 10 minutes was 254F from minute 4842 (-93F) to minute 4852 (161)
+
+Hour 82:
+5 highest temperatures: 167F 163F 151F 149F 149F
+5 lowest temperatures: -98F -93F -92F -91F -84F
+Biggest temperature difference between 10 minutes was 206F from minute 4893 (163F) to minute 4903 (-43)
+
+Hour 83:
+5 highest temperatures: 160F 159F 155F 154F 144F
+5 lowest temperatures: -96F -93F -78F -65F -62F
+Biggest temperature difference between 10 minutes was 215F from minute 4944 (137F) to minute 4954 (-78)
+
+Hour 84:
+5 highest temperatures: 166F 162F 156F 153F 151F
+5 lowest temperatures: -99F -94F -87F -81F -78F
+Biggest temperature difference between 10 minutes was 238F from minute 4985 (-76F) to minute 4995 (162)
+
+Hour 85:
+5 highest temperatures: 161F 158F 155F 154F 153F
+5 lowest temperatures: -96F -95F -92F -92F -91F
+Biggest temperature difference between 10 minutes was 234F from minute 5054 (-91F) to minute 5064 (143)
+
+Hour 86:
+5 highest temperatures: 167F 164F 159F 144F 135F
+5 lowest temperatures: -99F -94F -94F -90F -79F
+Biggest temperature difference between 10 minutes was 234F from minute 5120 (144F) to minute 5130 (-90)
+
+Hour 87:
+5 highest temperatures: 166F 152F 150F 147F 144F
+5 lowest temperatures: -99F -98F -89F -82F -75F
+Biggest temperature difference between 10 minutes was 227F from minute 5209 (-75F) to minute 5219 (152)
+
+Hour 88:
+5 highest temperatures: 163F 162F 158F 155F 153F
+5 lowest temperatures: -89F -85F -78F -74F -72F
+Biggest temperature difference between 10 minutes was 237F from minute 5228 (-74F) to minute 5238 (163)
+
+Hour 89:
+5 highest temperatures: 169F 167F 150F 147F 143F
+5 lowest temperatures: -96F -90F -84F -68F -67F
+Biggest temperature difference between 10 minutes was 257F from minute 5283 (-90F) to minute 5293 (167)
+
+Hour 90:
+5 highest temperatures: 163F 160F 153F 152F 147F
+5 lowest temperatures: -99F -94F -93F -85F -83F
+Biggest temperature difference between 10 minutes was 226F from minute 5361 (-73F) to minute 5371 (153)
+
+Hour 91:
+5 highest temperatures: 169F 164F 158F 155F 145F
+5 lowest temperatures: -99F -98F -91F -87F -85F
+Biggest temperature difference between 10 minutes was 263F from minute 5419 (-99F) to minute 5429 (164)
+
+Hour 92:
+5 highest temperatures: 169F 164F 159F 156F 154F
+5 lowest temperatures: -100F -100F -98F -96F -94F
+Biggest temperature difference between 10 minutes was 255F from minute 5508 (159F) to minute 5518 (-96)
+
+Hour 93:
+5 highest temperatures: 160F 154F 148F 147F 140F
+5 lowest temperatures: -88F -86F -82F -81F -76F
+Biggest temperature difference between 10 minutes was 215F from minute 5558 (154F) to minute 5568 (-61)
+
+Hour 94:
+5 highest temperatures: 167F 167F 163F 162F 161F
+5 lowest temperatures: -99F -98F -95F -92F -91F
+Biggest temperature difference between 10 minutes was 230F from minute 5595 (148F) to minute 5605 (-82)
+
+Hour 95:
+5 highest temperatures: 166F 165F 159F 159F 153F
+5 lowest temperatures: -90F -86F -83F -78F -66F
+Biggest temperature difference between 10 minutes was 221F from minute 5681 (-83F) to minute 5691 (138)
+
+Hour 96:
+5 highest temperatures: 165F 158F 157F 154F 148F
+5 lowest temperatures: -99F -97F -96F -94F -91F
+Biggest temperature difference between 10 minutes was 237F from minute 5723 (-96F) to minute 5733 (141)
+
+Hour 97:
+5 highest temperatures: 168F 166F 154F 147F 144F
+5 lowest temperatures: -90F -88F -87F -85F -79F
+Biggest temperature difference between 10 minutes was 254F from minute 5807 (166F) to minute 5817 (-88)
+
+Hour 98:
+5 highest temperatures: 161F 159F 158F 156F 155F
+5 lowest temperatures: -99F -96F -91F -87F -86F
+Biggest temperature difference between 10 minutes was 247F from minute 5822 (156F) to minute 5832 (-91)
+
+Hour 99:
+5 highest temperatures: 169F 165F 158F 151F 150F
+5 lowest temperatures: -93F -86F -85F -84F -66F
+Biggest temperature difference between 10 minutes was 206F from minute 5925 (-48F) to minute 5935 (158)
+
+Hour 100:
+5 highest temperatures: 166F 166F 163F 153F 147F
+5 lowest temperatures: -97F -97F -93F -92F -86F
+Biggest temperature difference between 10 minutes was 258F from minute 5966 (-92F) to minute 5976 (166)
+
